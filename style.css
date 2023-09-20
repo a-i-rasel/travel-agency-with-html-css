@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(rasel.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav {
+    height: 100px;
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.logo {
+    height: 55px;
+    width: 110px;
+    margin: 30px 80px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 480px;
+}
+
+li {
+    display: inline-block;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+
+}
+
+a:hover,
+button:hover {
+    background-color: rgb(66, 172, 214);
+    border-bottom: 3px solid black;
+    padding-bottom: 2px;
+}
+
+button {
+    font-size: 22px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+main {
+    margin-top: 150px;
+    margin-left: 60px;
+}
+
+main h1 {
+    font-size: 100px;
+}
+
+main h3 {
+    font-size: 40px;
+}
+
+main p {
+    width: 30%;
+    margin: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+footer {
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+
+}
+
+footer p {
+    display: inline-block;
+}
+
+#second {
+    margin: 20px;
+    padding-left: 30px;
+}
